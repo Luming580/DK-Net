@@ -76,7 +76,7 @@ python train_synapse.py
 python test_synapse.py
 ```
 
-The evaluator writes overall metrics, per-case metrics, and per-organ Dice/HD95 to the output directory. Use `--save-predictions` to store compressed volume predictions. For checkpoints evaluated with the earlier project's `(x - 0.5) / 0.5` input preprocessing, add `--normalize-input`.
+The evaluator writes overall metrics, per-case metrics, and per-organ Dice/HD95 to the output directory. Use `--save-predictions` to store compressed volume predictions. 
 
 ## TN3K Ultrasound
 
@@ -99,7 +99,6 @@ python train_tn3k.py
 python test_tn3k.py
 ```
 
-All paths are optional command-line arguments. For example, an external Synapse location can be supplied without editing source code: `python train_synapse.py --data-root D:\\datasets\\Synapse\\train_npz`.
 
 ## Reported Reference Results
 
