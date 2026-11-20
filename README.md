@@ -70,14 +70,6 @@ The default objective is the paper configuration, `0.4 * CE + 0.6 * Dice`.
 python train_synapse.py
 ```
 
-For the targeted liver loss-weight experiment, retain the CE:Dice balance and increase only liver's CE class weight:
-
-```bash
-python train_synapse.py --output-dir runs/synapse_liver_weighted --target-class 5 --target-class-weight 2.0
-```
-
-This option is intentionally opt-in. It is useful for investigating a selected organ, but it can change the overall and other-organ metrics.
-
 ### Evaluation
 
 ```bash
