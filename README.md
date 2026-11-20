@@ -129,4 +129,4 @@ The final manuscript reports the following DK-Net results. Values can differ mod
 
 ## Citation
 
-Please cite the accompanying DK-Net manuscript. A complete bibliographic entry will be added after publication.
+

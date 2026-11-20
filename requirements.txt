@@ -1,0 +1,7 @@
+# Install the PyTorch build matching your CUDA runtime from https://pytorch.org first.
+torch>=1.13
+numpy>=1.23
+scipy>=1.9
+h5py>=3.7
+Pillow>=9.0
+tqdm>=4.64
